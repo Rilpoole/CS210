@@ -1,0 +1,6 @@
+This is a    sample text that    will be formatted. It contains   multiple   spaces and punctuation.  This   is   a single  paragraph ! !
+This is a    sample text that    will be formatted. It contains   multiple   spaces and punctuation.  This   is   a single  paragraph ! !
+This is a    sample text that    will be formatted. It contains   multiple   spaces and punctuation.  This   is   a single  paragraph ! !
+This is a    sample text that    will be formatted. It contains   multiple   spaces and punctuation.  This   is   a single  paragraph ! !
+This is a    sample text that    will be formatted. It contains   multiple   spaces and punctuation.  This   is   a single  paragraph ! !
+This is a    sample text that    will be formatted. It contains   multiple   spaces and punctuation.  This   is   a single  paragraph ! !
