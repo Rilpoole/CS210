@@ -3,8 +3,8 @@ public class Rectangle implements IShape {
     private double width;
 
     Rectangle(double length, double width) {
-        // If length or width is zero the shape is nonsensical
-        if (length < 0 || width < 0) {
+        // If length or width is zero or negativethe shape is nonsensical
+        if (length <= 0 || width <= 0) {
             length = 0;
             width = 0;
             System.out.println("Warning: Negative length or width.");
