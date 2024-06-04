@@ -13,9 +13,13 @@ public class LibraryApp {
         Dvd dvd = new Dvd("The Complete Monty Python's Flying Circus", "BBC", 1972, "B00004ZEU5", 1479);
         items.add(dvd);
 
+        System.out.print("*** ITEMS ***\n\n");
+        int cartID = 1;
         for (LibraryItem item : items) {
+            System.out.printf("ITEM: %d/%d\n", cartID++, items.size());
             item.print();
             System.out.println();
         }
+        System.out.print("*** *** ***\n");
     }
 }
