@@ -18,6 +18,8 @@ public class LibraryApp {
         for (LibraryItem item : items) {
             System.out.printf("ITEM: %d/%d\n", cartID++, items.size());
             item.print();
+            item.checkOut();
+            item.returnItem();
             System.out.println();
         }
         System.out.print("*** *** ***\n");
