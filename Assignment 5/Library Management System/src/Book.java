@@ -28,5 +28,5 @@ public class Book extends LibraryItem {
 
     public void setGenre(String genre) {
         this.genre = genre;
-    }
+    } 
 }

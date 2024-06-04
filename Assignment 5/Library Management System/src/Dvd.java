@@ -28,5 +28,5 @@ public class Dvd extends LibraryItem {
 
     public void setDuration_min(int duration_min) {
         this.duration_min = duration_min;
-    }
+    } 
 }

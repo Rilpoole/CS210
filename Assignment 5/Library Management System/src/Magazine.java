@@ -28,5 +28,5 @@ public class Magazine extends LibraryItem {
 
     public void setIssueNumber(int issueNumber) {
         this.issueNumber = issueNumber;
-    }
+    } 
 }
