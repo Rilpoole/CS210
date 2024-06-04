@@ -2,7 +2,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class Test_Rectangle_Perimeter {
-        @Test
+    @Test
     public void zeroLength() {
         Rectangle r = new Rectangle(0, 1);
         Assert.assertEquals(0, r.perimeter(), Test_Environment.MACHINE_EPSILON);
@@ -47,12 +47,12 @@ public class Test_Rectangle_Perimeter {
     @Test
     public void max() {
         Rectangle r = new Rectangle(Double.MAX_VALUE, 1);
-        Assert.assertEquals(Double.POSITIVE_INFINITY, r.perimeter(),Test_Environment.MACHINE_EPSILON);
+        Assert.assertEquals(Double.POSITIVE_INFINITY, r.perimeter(), Test_Environment.MACHINE_EPSILON);
     }
 
     @Test
     public void nan() {
         Rectangle r = new Rectangle(Double.NaN, 1);
-        Assert.assertEquals(Double.NaN, r.perimeter(),Test_Environment.MACHINE_EPSILON);
+        Assert.assertEquals(Double.NaN, r.perimeter(), Test_Environment.MACHINE_EPSILON);
     }
 }

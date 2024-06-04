@@ -47,12 +47,12 @@ public class Test_Rectangle_Area {
     @Test
     public void max() {
         Rectangle r = new Rectangle(Double.MAX_VALUE, 1);
-        Assert.assertEquals(Double.MAX_VALUE, r.area(),Test_Environment.MACHINE_EPSILON);
+        Assert.assertEquals(Double.MAX_VALUE, r.area(), Test_Environment.MACHINE_EPSILON);
     }
 
     @Test
     public void nan() {
         Rectangle r = new Rectangle(Double.NaN, 1);
-        Assert.assertEquals(Double.NaN, r.area(),Test_Environment.MACHINE_EPSILON);
+        Assert.assertEquals(Double.NaN, r.area(), Test_Environment.MACHINE_EPSILON);
     }
 }
