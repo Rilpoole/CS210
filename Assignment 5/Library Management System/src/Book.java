@@ -6,17 +6,26 @@ public class Book extends LibraryItem {
         this.genre = genre;
     }
 
+    /**
+     * Prints the book details to the standard output.
+     */
     @Override
     public void print() {
         super.print();
         System.out.printf("Genre: %s\n", genre);
     }
 
+    /**
+     * Checks out the book.
+     */
     @Override
     public void checkOut() {
         System.out.println("Book checked out");
     }
 
+    /**
+     * Returns the book.
+     */
     @Override
     public void returnItem() {
         System.out.println("Book returned");
@@ -28,5 +37,5 @@ public class Book extends LibraryItem {
 
     public void setGenre(String genre) {
         this.genre = genre;
-    } 
+    }
 }

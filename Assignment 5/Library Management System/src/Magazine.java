@@ -6,17 +6,26 @@ public class Magazine extends LibraryItem {
         this.issueNumber = issueNumber;
     }
 
+    /**
+     * Pritns the magazine details
+     */
     @Override
     public void print() {
         super.print();
         System.out.printf("IssueNumber: %s\n", issueNumber);
     }
 
+    /**
+     * Checks out the magazine
+     */
     @Override
     public void checkOut() {
         System.out.println("Magazine checked out");
     }
 
+    /**
+     * Returns the item
+     */
     @Override
     public void returnItem() {
         System.out.println("Magazine returned");
@@ -28,5 +37,5 @@ public class Magazine extends LibraryItem {
 
     public void setIssueNumber(int issueNumber) {
         this.issueNumber = issueNumber;
-    } 
+    }
 }

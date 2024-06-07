@@ -6,17 +6,26 @@ public class Dvd extends LibraryItem {
         this.duration_min = duration_min;
     }
 
+    /**
+     * Prints the DVD details to the standard output
+     */
     @Override
     public void print() {
         super.print();
         System.out.printf("Duration: %s\n", duration_min);
     }
 
+    /**
+     * Checks out the book
+     */
     @Override
     public void checkOut() {
         System.out.println("DVD checked out");
     }
 
+    /**
+     * Checks in the book
+     */
     @Override
     public void returnItem() {
         System.out.println("DVD returned");
@@ -28,5 +37,5 @@ public class Dvd extends LibraryItem {
 
     public void setDuration_min(int duration_min) {
         this.duration_min = duration_min;
-    } 
+    }
 }
