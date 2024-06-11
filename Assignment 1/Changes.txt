@@ -1,0 +1,11 @@
+FACTORIAL AND GCD
+Changed directory structure to be consistent with other assignments.
+Renamed to be consistent with other assignments. 
+Removed the main file. 
+Changed to IllegalArgumentException
+Let compiler throw overflow
+Method names are lowercase
+Changed testing to use assertThrows
+Do no check for negative input values
+Use {} for if else
+Initialize to 1
