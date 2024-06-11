@@ -1,0 +1,15 @@
+1. correct 
+2. correct, when you overflow with left shift operation, the result will only contain the lower order bits that fit in the type, e.g. lower 32 bits for int. 
+3. correct it's great that you provided manual steps for the first 3 problems and wrote the code to verify. Coding: 1. please submit all files in your project -2. 
+
+2. nice comments and JavaDoc for methods. 
+3. No need main files. You are effectively writing library methods for the assignment. 
+4. You are quite advanced with Java. If n is negative, it is better to throw IllegalArgumentException(). 
+5. When n > 32, you can just let the runtime to throw overflow. Otherwise, check it at the beginning of Factorial method to catch it early. 
+6. method name should start with lowercase letter, factorial -0.5. 
+7. You can use assertThrows(IllegalArgumentException.class, () -> Assignment1Problem4.Factorial(-1)); instead. 
+8. Good set of test cases. 
+9. GCD: Really like your validation of input values. However, it was a bit overzealous. you can evaluate GCD of negative values. 
+10. No need to check against integer overflow since the input parameters are of type int and they cannot overflow by themselves. -0.5 
+11. Always use {} for block statement for if-else for consistency. 
+12. It's better to initialize ret as 1.
